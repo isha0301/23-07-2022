@@ -1,0 +1,22 @@
+<html>
+<body>
+
+<h2>redeclaring variable x</h2>
+
+<p id="annu"></p>
+ 
+<script>
+var  x = 143;
+// Here x is 10
+
+{  
+var x = 1631;
+// Here x is 1631
+}
+
+// Here x is 2
+document.getElementById("annu").innerHTML = x;
+</script>
+
+</body>
+</html>
